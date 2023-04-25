@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CodeFusion.iml" filepath="$PROJECT_DIR$/.idea/CodeFusion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/libs/common-exceptions/common-exceptions.iml" filepath="$PROJECT_DIR$/application/libs/common-exceptions/common-exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/libs/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/application/libs/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/libs/libs.iml" filepath="$PROJECT_DIR$/application/libs/libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/services/movie-mgmt/movie-mgmt.iml" filepath="$PROJECT_DIR$/application/services/movie-mgmt/movie-mgmt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/root.iml" filepath="$PROJECT_DIR$/application/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/libs/security-config/security-config.iml" filepath="$PROJECT_DIR$/application/libs/security-config/security-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/libs/security-configuration/security-configuration.iml" filepath="$PROJECT_DIR$/application/libs/security-configuration/security-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/services/services.iml" filepath="$PROJECT_DIR$/application/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/services/user-mgmt/user-mgmt.iml" filepath="$PROJECT_DIR$/application/services/user-mgmt/user-mgmt.iml" />
+    </modules>
+  </component>
+</project>

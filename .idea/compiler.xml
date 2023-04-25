@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="security-configuration" />
+        <module name="common-utils" />
+        <module name="user-mgmt" />
+        <module name="common-exceptions" />
+        <module name="security-config" />
+        <module name="movie-mgmt" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-exceptions" target="17" />
+      <module name="common-utils" target="17" />
+      <module name="libs" target="17" />
+      <module name="movie-mgmt" target="17" />
+      <module name="root" target="17" />
+      <module name="security-config" target="17" />
+      <module name="security-configuration" target="17" />
+      <module name="services" target="17" />
+      <module name="user-mgmt" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-exceptions" options="-parameters" />
+      <module name="common-utils" options="-parameters" />
+      <module name="movie-mgmt" options="-parameters" />
+      <module name="security-config" options="-parameters" />
+      <module name="security-configuration" options="-parameters" />
+      <module name="user-mgmt" options="-parameters" />
+    </option>
+  </component>
+</project>
