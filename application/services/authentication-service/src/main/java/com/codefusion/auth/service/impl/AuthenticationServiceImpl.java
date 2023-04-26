@@ -1,9 +1,9 @@
-package com.codefusion.user.service.impl;
+package com.codefusion.auth.service.impl;
 
+import com.codefusion.auth.model.dto.request.UserCredentialRequestDto;
+import com.codefusion.auth.model.dto.response.UserAuthenticationResponse;
+import com.codefusion.auth.service.AuthenticationService;
 import com.codefusion.security.jwt.service.JwtService;
-import com.codefusion.user.model.dto.request.UserCredentialRequestDto;
-import com.codefusion.user.service.AuthenticationService;
-import com.codefusion.user.model.dto.response.UserAuthenticationResponse;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

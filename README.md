@@ -10,4 +10,6 @@ So far I have used the below technologies.
 **JWT Authentication**<br>
 **Spring Data JPA** (at the moment just for usecase, will be updated later)<br>
 
-You can build the project in any ide (preferred intelliJ)
+intelliJ preferred to build the project
+
+Update: authentication service is added but currently storing users data in its own db (data is added manually for now)
