@@ -33,7 +33,7 @@ public class UserController {
     @GetMapping("/{id}")
     @PreAuthorize("hasAnyAuthority('ROLE_USER', 'ROLE_ADMIN')")
     public ResponseEntity<UserResponseDto> getUser(HttpServletRequest request, @PathVariable long id) {
-        String trackingUuid = request.getHeader(Headers.TRACKING_UUID);
+        String trackingUuid = request.getHeader(Headers.X_TRACKING_UUID);
         return ResponseEntity.ok(userService.getUser(trackingUuid, id));
     }
 }

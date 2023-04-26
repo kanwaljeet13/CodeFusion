@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@SpringBootApplication(scanBasePackages = {"com.codefusion.user", "com.codefusion.exceptions", "com.codefusion.security", "com.codefusion.security.repository"})
+@SpringBootApplication(scanBasePackages = {"com.codefusion.user", "com.codefusion.exceptions", "com.codefusion.security"})
 @EntityScan(basePackages= {"com.codefusion"})
 @EnableJpaRepositories("com.codefusion")
 public class UserApplication {

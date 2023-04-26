@@ -1,8 +1,8 @@
-package com.codefusion.user.controller;
+package com.codefusion.auth.controller;
 
-import com.codefusion.user.model.dto.request.UserCredentialRequestDto;
-import com.codefusion.user.service.AuthenticationService;
-import com.codefusion.user.model.dto.response.UserAuthenticationResponse;
+import com.codefusion.auth.model.dto.request.UserCredentialRequestDto;
+import com.codefusion.auth.model.dto.response.UserAuthenticationResponse;
+import com.codefusion.auth.service.AuthenticationService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

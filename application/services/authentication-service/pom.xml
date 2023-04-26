@@ -7,18 +7,14 @@
         <artifactId>services</artifactId>
         <version>${revision}</version>
     </parent>
-
-    <groupId>com.codefusion.services.movie</groupId>
-    <artifactId>movie-mgmt</artifactId>
+    <groupId>com.codefusion.services.auth</groupId>
+    <artifactId>authentication-service</artifactId>
     <version>${revision}</version>
-    <name>movie-mgmt</name>
-    <description>movie-mgmt</description>
+    <packaging>war</packaging>
+    <name>authentication-service</name>
+    <description>authentication-service</description>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -34,6 +30,16 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

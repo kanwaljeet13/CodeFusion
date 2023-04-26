@@ -15,6 +15,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>authentication-service</module>
         <module>user-mgmt</module>
         <module>movie-mgmt</module>
     </modules>

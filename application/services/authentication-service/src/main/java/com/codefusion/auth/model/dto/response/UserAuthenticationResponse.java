@@ -1,4 +1,4 @@
-package com.codefusion.user.model.dto.response;
+package com.codefusion.auth.model.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
